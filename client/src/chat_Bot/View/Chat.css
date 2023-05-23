@@ -1,0 +1,115 @@
+
+
+html,
+body {
+  scroll-behavior: smooth;
+
+}
+
+.header {
+  font-size: 3.2em;
+  line-height: 1.1;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  background-color: #242424;
+  color: green;
+}
+
+h1{
+  /* text-align: center; */
+  margin:1px;
+  /* margin-left: 900px; */
+
+}
+main {
+  max-width: 815px;
+  margin: auto;
+  background-color:#212F3D ;
+  border-radius: 30px;
+  /* margin-left: 600px; */
+  text-align: center;
+  height: 73vh;
+  /* background-color:lightcyan; */
+  /* overflow: -moz-scrollbars-vertical;  */
+  overflow-y: scroll;
+}
+
+p {
+  max-width: 40%;
+  padding: 15px;
+  border-radius: 50px;
+  text-align: start;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #5D6D7E  ;
+  color: aliceblue;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+p span {
+  margin: 5px;
+}
+
+p span:first-child {
+  margin-right: 0;
+  /* margin-left: 30%; */
+
+}
+
+.user_msg {
+  text-align: start;
+  margin-left: auto;
+  background-color: #5DADE2;
+
+  
+}
+
+
+.hide {
+  visibility: hidden;
+  display: none;
+}
+
+.logOut{
+  margin: 1px;
+  position: absolute;
+  /* bottom: 80vh; */
+  width: 135px;
+  top: 50px;
+  float: right;
+  background-color: #CB4335 !important;
+
+}
+
+.save{
+  margin: 1px;
+  position: absolute;
+  /* bottom: 74vh; */
+  /* right: 0px; */
+  /* left: 110px; */
+  top: 65px;
+  float: right;
+ 
+  background-color:#27AE60  !important;
+
+
+}
+.loading{
+  margin-left: -700px;
+  color: white;
+
+}
+
+.Me{
+color: #2ea9a6;
+
+font-size: medium;
+}
+
+.Bot{
+  color:#176ced;
+  font-size: medium;
+
+}
